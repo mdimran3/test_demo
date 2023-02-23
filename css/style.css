@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/*=============== common css start ===============*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 230px;
+}
+/* ==Input Number Arrow Remove css start*/
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* ==Input Number Arrow Remove css end*/
+
+:root {
+  --primary-font: 'Poppins', sans-serif;
+  --primary-color: #fe0000;
+  --secondary-color: #3f8ff0;
+  --text-color: #475467;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #292a33;
+  margin-bottom: 54px;
+}
+
+/*=============== common css end ===============*/
+
+/*=============== navbar_part css start ===============*/
+#navbar_part {
+  background: #f8f9fa;
+}
+
+.nav_scroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar img {
+  width: 60px;
+}
+.navbar ul .nav_mar {
+  margin-right: 30px;
+}
+.navbar ul li a {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151515;
+  transition: all 0.4s linear;
+}
+
+.navbar ul li a:hover {
+  color: var(--secondary-color);
+  background: none;
+}
+.navbar ul li a:focus {
+  background: none;
+}
+.navbar .dropdown-menu li a {
+  text-align: center;
+  transition: all 0.2s linear;
+}
+/* .navbar .dropdown-menu li a:hover {
+  background: var(--secondary-color);
+  color: white;
+} */
+.navbar .navbar-nav .nav-item .active {
+  color: var(--secondary-color);
+  background: none;
+}
+/*=============== navbar_part css end ===============*/
+
+/*=============== banner_part css start ===============*/
+#banner_part .slick-dots {
+  position: absolute;
+  bottom: 54px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+  font-size: 0;
+}
+
+#banner_part ul li {
+  margin: 0 2px;
+}
+
+#banner_part ul li button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  border: 4px solid var(--primary-color);
+}
+
+#banner_part ul .slick-active button {
+  border-color: white;
+}
+
+#banner_part .banner {
+  background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#banner_part .banner1 {
+  background: url(../images/banner01.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#banner_part .banner2 {
+  background: url(../images/banner02.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#banner_part .banner .overlay {
+  background: hsl(0, 0%, 0%, 0.3);
+  padding: 230px 0;
+}
+#banner_part .banner .text {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+#banner_part .banner .text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  width: 800px;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+#banner_part .banner .text p {
+  margin: 15px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+#banner_part .banner .text a {
+  background: var(--primary-color);
+  color: white;
+  padding: 15px 42px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  transition: all 0.4s linear;
+}
+#banner_part .banner .text a:hover {
+  background: var(--secondary-color);
+}
+/*=============== banner_part css end ===============*/
+
+/*=============== range_products css start ===============*/
+#range_products {
+  margin: 90px 0;
+}
+#range_products .title h2 {
+  width: 500px;
+  margin: 0 auto 54px;
+}
+#range_products .products_item {
+  background: var(--primary-color);
+  border-radius: 100%;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+#range_products .products_item:hover {
+  background: var(--secondary-color);
+}
+#range_products .products_item img {
+  width: 250px;
+  margin: 0 auto;
+}
+#range_products .products_item h3 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 42px;
+  color: #ffffff;
+}
+/*=============== range_products css end ===============*/
+
+/*=============== supplier_brand css start ===============*/
+#supplier_brand {
+  padding: 55px 0;
+  background: #fff0f054;
+}
+#supplier_brand h4 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #292a33;
+  margin-bottom: 25px;
+}
+#supplier_brand .images {
+  display: flex;
+  justify-content: space-between;
+}
+#supplier_brand .images img {
+  height: 80px;
+}
+#supplier_brand .brand {
+  display: flex;
+  justify-content: space-between;
+}
+#supplier_brand .brand h5 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+  color: #f83a00;
+}
+/*=============== supplier_brand css end ===============*/
+
+/*=============== about_part css start ===============*/
+#about_part {
+  margin: 90px 0;
+}
+#about_part .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+#about_part .left p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: var(--text-color);
+  width: 600px;
+}
+
+#about_part .right {
+  width: 100%;
+  height: 648px;
+  background: url(../images/about_picture.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+/*=============== about_part css end ===============*/
+/*=============== our_certificate css start ===============*/
+
+#our_certificate {
+  padding: 80px 0;
+  background: var(--secondary-color);
+}
+#our_certificate .title h2 {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+#our_certificate .images {
+  display: flex;
+  justify-content: space-between;
+}
+/*=============== our_certificate css end ===============*/
+
+/*=============== contact_us css start ===============*/
+#contact_us {
+  margin-top: 90px;
+}
+#contact_us h3 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-size: 30px;
+}
+#contact_us .contact_info h4 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  color: var(--text-color);
+  margin: 0;
+}
+#contact_us .contact_info p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color);
+  margin: 0;
+}
+#contact_us .map {
+  margin-top: 80px;
+}
+#contact_us .map iframe {
+  width: 100%;
+  height: 450px;
+}
+#contact_us .contact_info .address {
+  margin-bottom: 30px;
+}
+
+#contact_us .contact_info .fb_icon {
+  font-size: 30px;
+  color: #3f8ff0;
+}
+#contact_us form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#contact_us form input {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+  color: var(--text-color);
+}
+#contact_us form input:focus {
+  outline: 0;
+}
+#contact_us form label {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 5px;
+  line-height: 33px;
+}
+#contact_us form textarea {
+  font-family: var(--primary-font);
+  padding: 10px 15px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+  color: var(--text-color);
+  resize: none;
+}
+
+#contact_us form textarea:focus {
+  outline: 0;
+}
+
+#contact_us form button {
+  font-family: var(--primary-font);
+  border: 0;
+  padding: 10px 25px;
+  background: var(--secondary-color);
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+}
+#contact_us form button:focus {
+  background: var(--text-color);
+}
+/*=============== contact_us css end ===============*/
+
+/*=============== footer_part css start ===============*/
+#footer_part {
+  padding: 32px 0;
+  background: var(--secondary-color);
+}
+#footer_part p {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+}
+/*=============== footer_part css end ===============*/
+
+/* ========================================================================================================================================================================================================================================================================================================================================================================
+                                                                            automotive page   
+===================================================================================================================================================================================================================================================================================================================================================================== */
+
+#torqu_part {
+  padding: 59px 32px;
+  background: #d6f2ff;
+  margin: 30px 30px 90px 30px;
+  border-radius: 20px;
+}
+
+#torqu_part .logo img {
+  height: 80px;
+  display: inherit;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#torqu_part .item {
+  background: var(--primary-color);
+  padding: 21px 26px;
+  border-radius: 10px;
+}
+#torqu_part .item .text {
+  text-align: center;
+  color: #ffffff;
+}
+#torqu_part .item .text h4 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  margin: 22px 0 10px;
+}
+#torqu_part .item .text span {
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+#torqu_part .item .text p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+#torqu_part .item img {
+  width: 100%;
+  border-radius: 10px;
+}
+#torqu_part .item .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#torqu_part .item .bottom a {
+  padding: 10px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #00359c;
+}
+#torqu_part .logo .renovar {
+  height: 135px;
+}

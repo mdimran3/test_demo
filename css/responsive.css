@@ -1,0 +1,194 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /*=============== common css start ===============*/
+  .title h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  /*=============== common css end ===============*/
+  /*=============== navbar_part css start ===============*/
+  #navbar_part .navbar-toggler {
+    border: 0;
+  }
+  #navbar_part .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbar_part .navbar-toggler:focus i {
+    color: #3f8ff0;
+  }
+  #navbar_part .navbar-toggler i {
+    color: red;
+  }
+
+  #navbar_part .navbar-collapse {
+    text-align: center;
+  }
+  .navbar ul .nav_mar {
+    margin-right: 0;
+  }
+
+  /*=============== navbar_part css end ===============*/
+
+  /*=============== banner_part start ===============*/
+  #banner_part .banner .text h1 {
+    width: auto;
+    font-size: 43px;
+    line-height: 60px;
+  }
+  #banner_part .banner .overlay {
+    padding: 100px 0;
+  }
+  #banner_part .banner .text p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  #banner_part .banner .text a {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+  #banner_part .slick-dots {
+    bottom: 15px;
+    padding-left: 0;
+  }
+  /*=============== banner_part end ===============*/
+  /*=============== range_products start ===============*/
+  #range_products {
+    margin: 50px 0;
+  }
+  #range_products .title h2 {
+    margin: 0 auto;
+    width: 190px;
+    margin-bottom: 20px;
+  }
+  #range_products .products_item img {
+    width: 214px;
+  }
+  #range_products .products_item h3 {
+    font-size: 23px;
+  }
+  /*=============== range_products end ===============*/
+  #supplier_brand .images img {
+    height: 45px;
+  }
+
+  /*=============== supplier_brand start ===============*/
+  #supplier_brand {
+    padding: 35px 0;
+  }
+
+  #supplier_brand h4 {
+    margin: 0 0 10px;
+    font-size: 25px;
+    line-height: 45px;
+  }
+  #supplier_brand .images {
+    justify-content: space-around;
+  }
+  #supplier_brand .brand_right {
+    margin-top: 55px;
+  }
+
+  #supplier_brand .brand {
+    flex-direction: column;
+    align-items: center;
+  }
+  #supplier_brand .brand h5 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  /*=============== supplier_brand end ===============*/
+
+  /*=============== about_part end ===============*/
+  #about_part {
+    margin: 60px 0;
+  }
+  #about_part .title h2 {
+    margin-bottom: 15px;
+  }
+  #about_part .left p {
+    font-size: 18px;
+    line-height: 29px;
+    width: auto;
+    text-align: center;
+  }
+  #about_part .right {
+    height: 255px;
+  }
+  /*=============== about_part end ===============*/
+  /*=============== our_certificate start ===============*/
+  #our_certificate {
+    padding: 60px 0;
+  }
+
+  #our_certificate .images {
+    display: inline-block;
+    text-align: center;
+  }
+  #our_certificate .images img {
+    margin-bottom: 10px;
+  }
+  /*=============== our_certificate start ===============*/
+
+  /*=============== #contact_us start ===============*/
+  #contact_us {
+    margin: 70px 0 30px;
+  }
+  #contact_us .contact_info {
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  #contact_us .contact_info .address {
+    margin-bottom: 30px;
+  }
+
+  #contact_us .contact_info h4 {
+    font-size: 18px;
+  }
+  #contact_us .contact_info p {
+    font-size: 18px;
+  }
+  #contact_us h3 {
+    text-align: center;
+  }
+
+  #contact_us form label {
+    font-size: 18px;
+  }
+
+  /*=============== #contact_us end ===============*/
+  /*=============== #footer_part start ===============*/
+  #footer_part {
+    padding: 15px 0;
+  }
+  #footer_part p {
+    font-size: 15px;
+  }
+  /*=============== #footer_part end ===============*/
+
+  /* ==================================================================================================================================================================================================================================================================
+                                                                            automotive page   
+=====================================================================================================================================================================================================================================================================*/
+  #torqu_part {
+    padding: 30px 0;
+  }
+  #torqu_part .item {
+    padding: 10px;
+  }
+  #torqu_part .item .bottom a {
+    padding: 5px;
+    font-size: 12px;
+  }
+  #torqu_part .item .text h4 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  #torqu_part .item .text p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #torqu_part .logo .renovar {
+    height: 100px;
+  }
+}
